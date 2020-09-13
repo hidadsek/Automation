@@ -1,0 +1,7 @@
+For checking code: Download and open project using PyCharm: https://www.jetbrains.com/pycharm/
+Step to verify:
+- Run CMD or Gitbash
+- Run command git checkout ThucNguyen-UI-ManualTester
+- Run command: cd ui_automation_project
+- Install libraries by this command: pip install -r requirements.txt
+- Trigger all tests runner by this command: python -m unittest Thuc_Nguyen.test_suite_runner

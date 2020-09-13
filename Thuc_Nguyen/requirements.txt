@@ -1,0 +1,4 @@
+pyhamcrest
+requests
+selenium
+webdriver-manager

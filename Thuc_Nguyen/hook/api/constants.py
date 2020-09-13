@@ -1,0 +1,14 @@
+ACCESS_TOKEN = "cmbh3BA-0TUO6wsMbnn16hL-sR88JmnVPGBT4mig-oQ"
+HEADER = {'Accept-Version': 'v1', 'Authorization': 'Bearer ' + ACCESS_TOKEN}
+API_BASE_URL = "https://api.unsplash.com/"
+GET_USER_PROFILE_URL = API_BASE_URL + 'me'
+GET_RANDOM_PHOTO_URL = API_BASE_URL + 'photos/random'
+CREATE_COLLECTION_URL = API_BASE_URL + 'collections'
+ADD_PHOTO_TO_COLLECTION_URL = API_BASE_URL + 'collections/{collection_id}/add'
+REMOVE_PHOTO_TO_COLLECTION_URL = API_BASE_URL + 'collections/{collection_id}/remove'
+GET_PHOTO_URL = API_BASE_URL + 'photos/{photo_id}'
+GET_PHOTO_FROM_COLLECTION_URL = API_BASE_URL + 'collections/{collection_id}/photos'
+LIKE_PHOTO_URL = API_BASE_URL + 'photos/{photo_id}/like'
+GET_USER_PHOTO_URL = API_BASE_URL + 'users/{username}/photos'
+REMOVE_COLLECTION_URL = API_BASE_URL + 'collections/{collection_id}'
+GET_LIST_PHOTOS_OF_USER_URL = API_BASE_URL + '/users/{username}/photos'
